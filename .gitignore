@@ -1,0 +1,6 @@
+.DS_Store
+.venv/
+
+#raw data
+word2vec/word_embedding/*.bz2
+word2vec/word_embedding/*.kv
