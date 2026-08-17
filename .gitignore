@@ -4,3 +4,4 @@
 #raw data
 word2vec/word_embedding/*.bz2
 word2vec/word_embedding/*.kv
+word2vec/word_embedding/online_shopping_10_cats.csv
