@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="o6mf0Q6NGeqXDapm94Hi">
+    <mxGraphModel dx="694" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CoTrCiWjuyjCekyU5EBq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="process.py&lt;div&gt;(data preprocessing)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-7" edge="1" parent="1" source="pVtnNdJ1shyxjWDo23B7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pVtnNdJ1shyxjWDo23B7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="dataset.py&lt;div&gt;(load processed dataset)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-8" edge="1" parent="1" source="pVtnNdJ1shyxjWDo23B7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pVtnNdJ1shyxjWDo23B7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="model.py&amp;nbsp;&lt;div&gt;(define LSTM model for review analysis)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-13" edge="1" parent="1" source="pVtnNdJ1shyxjWDo23B7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pVtnNdJ1shyxjWDo23B7-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-15" edge="1" parent="1" source="pVtnNdJ1shyxjWDo23B7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pVtnNdJ1shyxjWDo23B7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="train.py&lt;div&gt;(training script)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-6" edge="1" parent="1" source="pVtnNdJ1shyxjWDo23B7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pVtnNdJ1shyxjWDo23B7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tokenizer.py&lt;div&gt;(tokenizer implementation)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="predict.py&lt;div&gt;(User-input interface to run model for prediction)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pVtnNdJ1shyxjWDo23B7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="evaluate.py&lt;div&gt;(model evaluation script on testing dataset )&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
