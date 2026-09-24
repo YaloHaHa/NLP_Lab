@@ -5,8 +5,14 @@
 word2vec/word_embedding/*.bz2
 word2vec/word_embedding/*.kv
 word2vec/word_embedding/online_shopping_10_cats.csv
+LSTM_ReviewAnalyst/data/raw/*.csv
+
 # large artifacts
 RNN/data/processed/*.jsonl
 RNN/data/raw/*.jsonl
-RNN/models/*.pth
+RNN/models/
 word2vec/word_embedding/*.kv
+
+LSTM_ReviewAnalyst/data/processed/*.jsonl
+LSTM_ReviewAnalyst/data/raw/*.jsonl
+LSTM_ReviewAnalyst/models/
